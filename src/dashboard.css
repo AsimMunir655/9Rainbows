@@ -1,0 +1,68 @@
+.ant-layout-sider-trigger {
+  background-color: var(--primaryK) !important;
+  color: white !important;
+}
+
+.profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.profile img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ant-layout-header {
+line-height: 0px !important;
+}
+
+.ant-input-search .ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+    border-top-left-radius: 26px !important;
+    border-bottom-left-radius: 26px !important;
+}
+
+.ant-input-search>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0 20px 20px 0 !important;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #72d3d33d !important;
+}
+.ant-menu-item-selected, .ant-menu-item-selected a, .ant-menu-item-selected a:hover {
+    color: #72D3D3 !important;
+    font-weight: 500 !important;
+}
+
+.ant-menu-inline .ant-menu-item:after, .ant-menu-vertical-left .ant-menu-item:after, .ant-menu-vertical-right .ant-menu-item:after, .ant-menu-vertical .ant-menu-item:after {
+    border-right: 3px solid #72D3D3 !important;
+}
+
+.ant-menu-light .ant-menu-item:hover{
+    color: #72D3D3 !important;
+}
+
+.ant-form-item-label>label{
+  font-weight: 600 !important;
+}
+
+.ant-radio-checked .ant-radio-inner {
+  border-color: #72D3D3 !important;
+}
+
+.ant-radio-inner:after {
+  background-color: #72D3D3 !important;
+}
+
+.consultation-drop .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: transparent;
+  border: none;
+}
+
+
+
+
+
